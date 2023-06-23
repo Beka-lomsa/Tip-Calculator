@@ -1,0 +1,188 @@
+.ContainerLeftSide {
+  width: 417px;
+  height: 417px;
+  border-radius: 15px;
+  margin: 0 48px;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+}
+.billAmount {
+  width: 379px;
+  height: 48px;
+  background-color: #F3F9FA;;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.billAmount:hover{
+  outline: 2px solid #9FE8DF;
+  border-radius: 5px;
+}
+.billAmouContAfEroor{
+  width: 379px;
+  height: 48px;
+  background-color: #F3F9FA;;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  cursor: pointer;
+  border: 2px solid #E17052;
+  border-radius: 5px;
+}
+.dollarICon{
+  margin-left: 19.26px;
+  width: 20px;
+  height: 24px;
+  color: #9EBBBD;
+}
+.billInput{
+  height: 48px;
+  width: calc(100% - 57px);
+  background: transparent;
+  border: none;
+  outline: none;
+  text-align: right;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35.54px;
+  color: #00474B;
+  cursor: pointer;
+}
+.billInput::placeholder {
+  font-size: 24px;
+  line-height: 35.54px;
+  font-weight: 700;
+  color: #00474B;
+  opacity: 0.35;
+  mix-blend-mode: normal;
+}
+.headersStyle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23.7px;
+  font-style: normal;
+  color: #5E7A7D;
+  display: inline;
+}
+.tiphead {
+  margin-bottom: 16px;
+}
+.headnumOfPep {
+  margin-bottom: 6px;
+  display: inline;
+}
+.error{
+  display: inline;
+  margin-left: 94px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23.7px;
+  align-items: right;
+  color: #E17457;
+}
+.procentCont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 16px ;
+  margin-bottom: 40px;
+}
+.btnInput {
+  width: 117px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #00474B;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35.54px;
+  color: #FFFFFF;
+
+}
+.btnInput:hover {
+  background-color: #9FE8DF;
+  border: none;
+}
+.tip-btn {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+}
+
+[name="tip"] {
+  opacity: 0;
+  position: absolute;
+}
+.customNumber {
+  width: 117px;
+  height: 48px;
+  border-radius: 5px;
+  text-align: center;
+  counter-reset: #547878;
+  background-color: #F3F9FA;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  font-weight: 700;
+}
+.customNumber:hover {
+  border: 2px solid #9FE8DF;
+}
+.tipInput:focus::placeholder{
+  color: transparent;
+}
+.NumberOfPeopContainer{
+  width: 379px;
+  height: 48px;
+  background-color: #F3F9FA;;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
+.NumberOfPeopContainer:hover{
+  outline: 2px solid #9FE8DF;
+  border-radius: 5px; 
+}
+.NumberofPeoAfterErrorr{
+  width: 379px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  border: 2px solid #E17052;
+  border-radius: 5px;
+  background: #F3F9FA;
+}
+.iconAvatar{
+  margin-left: 19.26px;
+  width: 20px;
+  height: 24px;
+  color: #9EBBBD;
+}
+.peopleNumber{
+  height: 48px;
+  width: calc(100% - 57px);
+  background: transparent;
+  border: none;
+  outline: none;
+  text-align: right;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35.54px;
+  color: #00474B;
+}
+.peopleNumber::placeholder {
+  font-size: 24px;
+  line-height: 35.54px;
+  font-weight: 700;
+  color: #00474B;
+  opacity: 0.35;
+  mix-blend-mode: normal;
+}

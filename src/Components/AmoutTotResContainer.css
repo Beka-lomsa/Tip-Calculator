@@ -1,0 +1,79 @@
+.ContainerRightSide{
+  width: 413px;
+  height: 417px;
+  border-radius: 15px;
+  background-color: #00474B;
+  margin-right: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.tipAmPeCont{
+  display: flex;
+  margin-left: 40px;
+  margin-top: 56px;
+}
+.tip {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23.7px;
+}
+.person{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19.25px;
+  color: #7F9D9F;
+}
+.numOfTip{
+   margin-left: 92px;
+   width: 143px;
+   height: 71px;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 71.09px;
+   letter-spacing: -1px;
+   align-items: right;
+   color: #26C2AE;
+}
+.totalPerCont{
+  display: flex;
+  margin-left: 40px;
+  margin-top: 56px;
+}
+.total{
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23.7px;
+}
+.numOfTotal{
+  margin-left: 126px;
+  width: 172px;
+  height: 71px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71.09px;
+  letter-spacing: -1px;
+  align-items: right;
+  color: #26C2AE;
+}
+.resetBtn{
+  width: 333px;
+  height: 48px;
+  text-transform: uppercase;
+  color: #00474B;
+  background: #26C2AE;
+  border-radius: 5px;
+  border: none;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 80px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29.62px;
+  align-items: center;
+}
+.resetBtn:hover {
+  background-color: #9FE8DF;
+  cursor: pointer;
+}
